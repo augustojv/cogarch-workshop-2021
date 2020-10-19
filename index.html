@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Workshop on Cognitive Architectures</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-spy="scroll" data-target="#site-nav">
+    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="index.html">
+                        
+                        <!-- logo image  -->
+                        <!-- <img src="assets/images/logo.png" alt="Logo"> -->
+                        CogArch
+                    </a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- navigation menu -->
+                    <li class="active"><a data-scroll href="#about">About</a></li>
+                    <li><a data-scroll href="#about">Call for Contributions</a></li>
+                    <li><a data-scroll href="#speakers">Speakers</a></li>         
+                    <li><a data-scroll href="#program">Program</a></li>
+                    <li><a data-scroll href="#org">Organizers</a></li>
+                
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+
+    <header id="site-header" class="site-header valign-center"> 
+        <div class="intro">
+
+            <p>February 23<sup>rd</sup> 2020, San Diego, CA</p>
+
+            <h1>CogArch 2020</h1>            
+            <h1>Fourth Workshop on Cognitive Architectures</h1>
+            
+            <p>In conjunction with the 26<sup>th</sup> International Symposium on<br>
+                High-Performance Computer Architecture (HPCA 2020)</p>
+            
+            <a class="btn btn-white" data-scroll href="#about">Contribute Now</a>
+
+            <a class="btn btn-white" data-scroll href="#registration">Register Now</a>
+        
+        </div>
+    </header>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <h3 class="section-title">About</h3>
+                    
+                    <p>
+                    The emerging new interest in <strong>artificial intelligence (AI)</strong> has led to a paradigm shift in the field of
+                    computer architecture. Architectures that focus on machine learning and neuromorphic computing are increasingly being
+                    adopted into the mainstream. The design of future processors is increasingly being predicated on metrics based on
+                    cognitive applications. The interplay between the development of state-of-the-art algorithms in cognitive sciences,
+                    computer vision, speech recognition and the design of the underlying system architectures has resulted in several 
+                    cross-disciplinary advances. After highly successful editions of the Workshop on Cognitive Architectures in the past,
+                    in this year’s edition we expect to consolidate the many recent works in this field and provide concrete roadmaps as to
+                    what subsequent directions the research in this field should take. This workshop at HPCA proposes to bring together
+                    researchers and practitioners within systems architecture, computer vision, artificial intelligence and robotics to
+                    discuss the latest ideas, applications and commercialization strategies around the cognitive computing theme. In addition,
+                    it also aims to foster an interest in such emerging fields among industry and academic researchers alike. The primary focus
+                    is expected to be on driving towards a better understanding of key cognitive algorithms of interest and the allied architectural 
+                    support issues. 
+                    </p>
+                    <p>
+                    Of particular interest are application areas of <strong>mobile cognition</strong>, which may comprise of a distributed
+                    swarm of <em>intelligent</em> computing modules. This paradigm is relevant in the context of unmanned aerial vehicles
+                    and connected cars.  Further, the rising investment by industry in designing IoT (Internet-of-Things) platforms, has
+                    resulted in several opportunities to build architectures that support capabilities such as intelligent data exchange and 
+                    interaction with cloud, pattern matching, data analytics and other cognitive aspects to build truly transformative systems.
+                    </p>
+
+                    <h3 class="section-title multiple-title">Call for Papers</h3>
+
+                    <p>
+                    Recent advances in architectures for AI have been instrumental in the development and deployment of autonomous systems,
+                    such as self-driving vehicles, and unmanned aerial vehicles. The Tesla FSD and Nvidia Xavier SoC are examples of commercial
+                    chips in the autonomous driving space with dedicated hardware units for processing AI algorithms. Next-generation processors
+                    in this domain are being envisioned as multi-agent systems that support swarm-based decision-making, as well as intelligent
+                    data exchange capabilities amongst each other or with a backing cloud server. The proliferation of mobile computing platforms, 
+                    Internet-of-Things and cloud support features thereof have opened up exciting new opportunities for such real-time, mobile 
+                    (distributed or swarm-driven) cognition. The CogArch workshop solicits formative ideas and new product offerings in this general 
+                    space.
+
+                    Topics of interest include (but are not limited to):
+                    
+                    <ul class="list-arrow-right">
+                        <li>Algorithms in support of cognitive reasoning: recognition, intelligent search, diagnosis, inference and informed 
+                            decision-making.</li>
+                        <li>Swarm intelligence and distributed architectural support; brain-inspired and neural computing architectures.</li>
+                        <li>Prototype demonstrations of state-of-the-art AI computing systems.</li>
+                        <li>Accelerators and micro-architectural support for artificial intelligence.</li>
+                        <li>Approaches to reduce training time and enable faster model delivery.</li>
+                        <li>Cloud-backed autonomics and mobile cognition: architectural and OS support thereof.</li>
+                        <li>Resilient design of distributed (<em>swarm</em>) mobile AI architectures.</li>
+                        <li>Reliability and safety considerations, and security against adversarial attacks in mobile AI architectures.</li>
+                        <li>Energy efficiency, battery life extension and endurance in mobile AI architectures.</li>
+                        <li>Case studies and real-life demonstrations/prototypes in specific application domains: e.g. smart homes, connected 
+                            cars and UAV-driven commercial services, as well as applications of interest to defense and homeland 
+                            security.</li>
+                    </ul>
+
+                </div><!-- /.col-sm-6 -->
+
+                <div class="col-sm-6">
+
+					<p>
+                    The workshop shall consist of regular presentations and/or prototype demonstrations by authors of selected submissions.
+                    In addition, it will include invited keynotes by eminent researchers from industry and academia as well as interactive
+                    panel discussions to kindle further interest in these research topics. Submissions will be reviewed by a workshop Program 
+                    Committee, in addition to the organizers.
+                    </p>
+                    
+                    <p>
+                    Submitted manuscripts must be in English of <strong>up to 2 pages</strong> (with same
+                    <a href="https://www.hpca-conf.org/2020/hpca-2020-guidelines-for-submissions/" target="_blank">formatting guidelines as main 
+                    conference</a>) indicating the type of submission: <strong>regular presentation</strong> or <strong>prototype 
+                    demonstration</strong>. Submissions should be sent to <a href="mailto:submissions@cogarch-workshop.org">
+                    submissions@cogarch-workshop.org</a> <strong>by <strike>December 6<sup>th</sup></strike> December 13<sup>th</sup>, 2019 <font color="red">(deadline 
+					extended)</font></strong>.
+                    <br>
+                    If you have questions regarding submission, please contact us:
+                    <a href="mailto:info@cogarch-workshop.org">info@cogarch-workshop.org</a>
+                    </p>
+
+                    <h3 class="section-title multiple-title">Call for Prototype Demonstrations</h3>
+
+                    <p>
+                    CogArch will feature a session where researchers can showcase innovative prototype demonstrations or 
+                    <i>proof-of-concept</i> designs in the cognitive architecture space. Examples of such demonstrations may include (but are 
+                    not limited to):
+                    
+                    <ul class="list-arrow-right">
+                        <li>Custom ASIC or FPGA-based demonstrations of machine learning, cognitive or neuromorphic architectures.</li>
+                        <li>Innovative implementations of state-of-the-art cognitive algorithms/applications, and the underlying 
+                            software-hardware co-design techniques.</li>
+                        <li>Demonstration of end-to-end cognitive systems comprising of edge devices backed by a cloud computing 
+                            infrastructure.</li>
+                        <li>Novel designs showcasing the adoption of emerging technologies for the design of cognitive systems.</li>
+                        <li>Tools or frameworks to aid analysis, simulation and design of cognitive systems.</li>
+                    </ul>
+
+                    Submissions for the demonstration session may be made in the form of a 2-page manuscript highlighting key features and 
+                    innovations of the prototype demonstration. Proposals accepted for demonstration during the workshop can be accompanied 
+                    by a poster/short presentation. Authors should explicitly indicate that the submission is for <strong>prototype 
+                    demonstration</strong> at submission time.
+                    </p>
+
+                    <h3 class="section-title multiple-title">Important Dates</h3>
+                      
+                    <p>
+					<ul class="list-arrow-right">
+                        <li>Paper submission deadline: <strike>December 6<sup>th</sup></strike> December 13<sup>th</sup>, 2019 <font color="red">(deadline 
+							extended)</font></li>
+						<li>Notification of acceptance: January 10<sup>th</sup>, 2020</li>
+						<li>Workshop date: February 23<sup>rd</sup>, 2020</li>
+					</ul>
+                    </p>
+
+                    <h3 class="section-title multiple-title">Program Committee</h3>
+
+                    <p>
+					<ul class="list-arrow-right">
+                        <li>Vijay Janapa Reddi, Harvard University</li>
+                        <li>Augusto Vega, IBM Research</li>
+                        <li>Karthik Swaminathan, IBM Research</li>
+                        <li>Nandhini Chandramoorthy, IBM Research</li>
+                        <li>Alper Buyuktosunoglu, IBM Research</li>
+                        <li>Pradip Bose, IBM Research</li>
+					</ul>
+                    </p>
+
+                </div><!-- /.col-sm-6 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section>
+
+    <section id="important" class="section bg-image-1 facts text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+
+                    <i class="ion-ios-calendar"></i>
+                    <h3>Paper Submission Deadline<br>December 13<sup>th</sup>, 2019</h3>
+                
+                </div>
+                <div class="col-sm-4">
+
+                    <i class="ion-ios-calendar"></i>
+                    <h3>Notification<br>January 10<sup>th</sup>, 2020</h3>
+                
+                </div>
+                <div class="col-sm-4">
+
+                    <i class="ion-ios-calendar"></i>
+                    <h3>Workshop date<br>February 23<sup>rd</sup>, 2020</h3>
+                
+                </div>
+                <!--
+                <div class="col-sm-3">
+                
+                    <i class="ion-ios-calendar"></i>
+                    <h3>Workshop date<br>March 24<sup>th</sup>, 2018</h3>
+                
+                </div>
+                -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+    <section id="speakers" class="section speakers">
+        <div class="container">
+			
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Invited Speakers</h3>    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/Rosario_Cammarota.png">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-sm-10">
+					<h2>Rosario Cammarota</h2>
+					<h4>INTEL AI</h4>
+					<p>
+						Dr. Rosario Cammarota ("Ro") is a Principal Research Scientist at Intel AI Research, where he grows the effort on privacy-preserving
+						technologies and international standards for AI Systems. He received his Ph.D. degree in Computer Science from the University of
+						California, Irvine, in 2013. He serves on the program and organizing committees of several premier hardware and embedded security
+						conferences and workshops. He is a Senior Member of IEEE, a prolific inventor and one of the recipients of the SRC Outstanding
+						Industry Liaison Awards in 2017, 2018, and 2019.
+                    </p>
+				</div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/Yu-Hsin_Chen.png">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-sm-10">
+					<h2>Yu-Hsin Chen</h2>
+					<h4>FACEBOOK</h4>
+					<p>
+						Dr. Yu-Hsin Chen is a Research Scientist at Facebook focusing on hardware/software co-design to enable on-device AI for AR/VR systems.
+						Dr. Chen received the M.S. and Ph.D. degrees in Electrical Engineering and Computer Science (EECS) from Massachusetts Institute of
+						Technology (MIT), Cambridge, MA, in 2013 and 2018, respectively. He received the 2018 Jin-Au Kong Outstanding Doctoral Thesis Prize
+						in Electrical Engineering at MIT and the 2019 ACM SIGARCH/IEEE-CS TCCA Outstanding Dissertation Award. Prior to joining Facebook, he
+						was a research scientist at Nvidia Research. 
+						<br>
+						Dr. Chen was the recipient of the 2015 Nvidia Graduate Fellowship, 2015 ADI Outstanding Student Designer Award, and 2017 IEEE SSCS
+						Predoctoral Achievement Award. His work on the dataflows for CNN accelerators was selected as one of the Top Picks in Computer
+						Architecture in 2016. He co-taught a tutorial on “Hardware Architectures for Deep Neural Networks” at MICRO-49, ISCA 2017, MICRO-50,
+						and ISCA 2019. He has served on the technical program committees for Conference on Machine Learning and Systems (MLSys) and the ERC
+						for the International Symposium on High-Performance Computer Architecture (HPCA).
+                    </p>
+				</div>
+			</div>
+		</div>
+    </section>
+
+    <section id="program" class="section schedule">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Program</h3>
+                    <p>
+                    <table class="table table-hover">
+                      <thead class="thead-light">
+                        <tr>
+                          <th colspan=2 scope="col">Sunday February 23<sup>rd</sup>, 2020<br><em>(all times are in Pacific Time)</em></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="col-md-3">8:30 - 8:45 AM</th>
+                          <td>Introduction and Welcoming Remarks</td>
+                        </tr>
+                        <tr bgcolor="#EBF5FB">
+                          <th scope="row">8:45 - 9:30 AM</th>
+                          <td><strong>Invited Talk:</strong> "Frameworks for Building Privacy-Preserving and Performing AI Systems: The Lessons Learned"<br>
+							  Dr. Rosario Cammarota <em>(Intel AI)</em></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">9:30 - 10:00 AM</th>
+                          <td>"PANTHER: A Programmable Architecture for Neural Network Training Harnessing Energy-Efficient ReRAM"<br>
+							  Aayush Ankit, Izzat El Hajj, Sai Rahul Chalamalasetti, Sapan Agarwal, Matthew Marinella, Martin Foltin,
+							  John Paul Strachan, Dejan Milojicic, Wen-mei Hwu, Kaushik Roy <em>(Purdue University)</em></td>
+                        </tr>
+                        <tr bgcolor="#FEF9E7">
+                          <th scope="row">10:00 - 10:30 AM</th>
+                          <td><i>Coffee Break</i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">10:30 - 11:00 AM</th>
+                          <td>"MASR: A Modular Accelerator for Sparse RNNs"<br>
+							  Udit Gupta, Brandon Reagan, Lillian Pentecost, Marco Donato, Thierry Tambe, Alexander M. Rush, Gu-Yeon Wei
+							  and David Brooks <em>(Harvard University)</em></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">11:00 - 11:30 AM</th>
+                          <td>"WiSEMAN: A Weightless Emotion-Driven Neural Architecture for Planning-Related Tasks"<br>
+							  Leopoldo Lusquino Filho, Aluizio Lima Filho, Felipe Fran&ccedil;a and Priscila Lima <em>(Universidade Federal do Rio de Janeiro)</em></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">11:30 AM - 12.00 PM</th>
+                          <td><strong>Demo Presentation:</strong> "Towards a General Purpose Cognitive Drone"<br>
+							  Sam Jijina, Adriana Amyette, Ramyad Hadidi and Hyesoon Kim <em>(Georgia Tech)</em></td>
+                        </tr>
+                        <tr bgcolor="#FEF9E7">
+                          <th scope="row">12:00 - 1:15 PM</th>
+                          <td><i>Lunch</i></td>
+                        </tr>
+                        <tr bgcolor="#EBF5FB">
+                          <th scope="row">1:15 - 2:00 PM</th>
+                          <td><strong>Invited Talk:</strong> <em>"On-Device AI for Augmented Reality (AR) Systems"</em><br>
+							  Dr. Yu-Hsin Chen <em>(Facebook)</em></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2:00 - 2.30 PM</th>
+                          <td><strong>Demo Presentation:</strong> "MAERI on FPGA: From Concept to Conception"<br>
+							  Yehowshua Immanuel and Tushar Krishna <em>(Georgia Tech)</em></td>
+                        </tr>
+                        <tr bgcolor="#FEF9E7">
+                          <th scope="row">2:30 - 3:00 PM</th>
+                          <td><i>Coffee Break</i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3.00 - 3.30 PM</th>
+                          <td>"Real-Time Machine Learning on TinyML Systems"<br>
+							  Bardienus Duisterhof, Srivatsan Krishnan, Jonathan Cruz, Colby Banbury, William Fu, Aleksandra Faust, Guido de Croon
+							  and Vijay Reddi <em>(Harvard University, Robotics at Google, Delft University of Technology, The University of Texas at Austin)</em></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3:30 PM</th>
+                          <td>Concluding Remarks</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <section id="org" class="section registration">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Organizers</h3>
+                </div>
+                <div class="col-md-4">
+
+                <p>                    
+                <b><a href="https://www.seas.harvard.edu/directory/vjanapa-reddi" rel="nofollow" 
+                target="_blank">Vijay Janapa Reddi</a> </b>is an Associate Professor of Electrical Engineering at Harvard University.
+                His research interests are in edge computing and IoT systems, specifically in the context of mobile devices and autonomous
+                machines. He holds a Ph.D. degree from Harvard University.
+                </p>
+                <p>
+                <b><a href="https://www.linkedin.com/in/augusto-vega-5940684" rel="nofollow" target="_blank">Augusto Vega</a> </b>is a 
+                Research Staff Member at IBM T. J. Watson Research Center involved in research and development work in the areas of 
+                highly-reliable power-efficient embedded designs, cognitive systems and mobile computing. He holds a Ph.D. degree from 
+                Polytechnic University of Catalonia (UPC), Spain.
+                </p>
+                <p>                    
+                <b><a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-kvswamin" rel="nofollow" 
+                target="_blank">Karthik Swaminathan</a> </b>is a Research Staff Member at IBM T. J. Watson Research Center. His research
+                interests include power-aware architectures, domain-specific accelerators and emerging device technologies in processor
+                design. He is also interested in architectures for approximate and cognitive computing, particularly in aspects related to
+                their reliability and energy efficiency. He holds a Ph.D. degree from Penn State University.
+                </p>
+                </div>
+                <div class="col-md-4">
+                <p>
+                <b><a href="" rel="nofollow" 
+                target="_blank">Nandhini Chandramoorthy</a> </b>is a Research Staff Member at IBM T. J. Watson Research Center involved in Deep 
+                Neural Network ASIC design with techniques to improve reliable operation at very low supply voltages, and pre-RTL performance
+                modeling tools for multi-core architectures. She holds a Ph.D. degree from Penn State University.
+                </p>
+                <p>
+                <b><a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-alperb" rel="nofollow" target="_blank">Alper 
+                Buyuktosunoglu</a> </b>is a Research Staff Member at IBM T. J. Watson Research Center. He has been involved in research and
+                development work in support of IBM Power Systems and IBM z Systems in the area of high performance, reliability and power-aware 
+                computer architectures. He holds a Ph.D. degree from University of Rochester.
+                </p>
+                <p>
+                <b><a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-pbose" rel="nofollow" target="_blank">Pradip 
+                Bose</a> </b>is a Distinguished Research Staff Member and manager of <i>Efficient and Resilient Systems</i> at IBM T. J. 
+                Watson Research Center. He has over thirty-three years of experience at IBM, and was a member of the pioneering RISC super 
+                scalar project at IBM (a pre-cursor to the first RS/6000 system product). He holds a Ph.D. degree from University of Illinois 
+                at Urbana-Champaign.
+                </p>
+                </div>
+                <div id="contact" class="col-md-4">
+                    <h4 class="section-title">Contact</h4>
+                    <ul class="list-arrow-right">
+                    <li><a href="mailto:info@cogarch-workshop.org">info@cogarch-workshop.org</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--
+    <section id="facts" class="section bg-image-1 facts text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <i class="ion-earth"></i>
+                    <h3><a href="http://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=6586" rel="nofollow" target="_blank">CogArch 2015</a></h3>
+                
+                </div>
+                <div class="col-sm-6">
+
+                    <i class="ion-earth"></i>
+                    <h3><a href="http://researcher.watson.ibm.com/researcher/view_group.php?id=5848" rel="nofollow" target="_blank">CogArch 2016</h3>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <section id="links" class="section bg-image-2 facts ">
+        <div class="container">
+            <div class="row">
+				<div class="col-md-12">
+                    <h3 class="section-title">Interesting Links</h3>
+                </div>
+				<div class="col-md-3">
+                    <p>The <a href="http://www.computerhistory.org/timeline/ai-robotics/" rel="nofollow" target="_blank">AI and Robotics Timeline</a> from 1939 to date.</p>
+                </div><div class="col-md-3">
+                    <p>The <a href="http://www.ted.com/talks?sort=newest&q=ai" rel="nofollow" 
+                        target="_blank">TED Talks</a> with a variety of talks on the topic of AI.</p>
+                </div><div class="col-md-3">
+                    <p>IBM Watson in action in this <a href="https://visual-recognition-demo.mybluemix.net" rel="nofollow" target="_blank">on-line demo</a> using deep learning algorithms.</p>
+                </div><div class="col-md-3">
+                    <p>The <a href="http://research.ibm.com/cognitive-computing/" rel="nofollow" target="_blank">AI and Cognitive Computing portal</a> with the latest research activities conducted by IBM on AI.</p>
+                </div>
+
+
+        </div>
+    </section>
+
+
+    <section id="location" class="section location">
+        <div class="container">
+            <div class="row">
+			
+				<div id="registration" class="col-md-3">
+                    <h3 class="section-title">Registration</h3>
+
+                    <p>
+                    CogArch will be held in conjunction with the <b><a href="https://www.hpca-conf.org/2020/"  target="_blank">
+                    26<sup>th</sup> International Symposium on High-Performance Computer Architecture (HPCA 2020)</a></b>.
+                    Refer to the main venue to continue with the registration process.
+                    </p>
+                </div>
+
+
+                <div class="col-sm-3">
+                    <h3 class="section-title">Event Location</h3>
+                    <address>
+					  <p>Hilton San Diego Resort & Spa<br>
+					  1775 E Mission Bay Dr<br>
+					  San Diego, CA 92109
+                      </p>
+                    </address>
+                    
+                    <p><b><a href="https://www.hpca-conf.org/2020/venue-hotel/" target="_blank"> Check main venue site for more information.</a></b></p>
+
+                </div>
+                <div class="col-sm-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13417.95290169536!2d-117.2108809!3d32.7793116!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2de9b500e2f6a561!2sHilton%20San%20Diego%20Resort%20%26%20Spa!5e0!3m2!1sen!2sus!4v1575671016027!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe><br/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="site-footer facts">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="site-info">Share this event on your social networks</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://twitter.com/home?status=Check%20out%20the%20Workshop%20on%20Cognitive%20Architectures%0Ahttps%3A//cogarch-workshop.org"><i class="ion-social-twitter"></i>&nbsp; Twitter</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//cogarch-workshop.org/"><i class="ion-social-facebook"></i>&nbsp; Facebook</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//cogarch-workshop.org/&title=Workshop%20on%20Cognitive%20Architectures&summary=&source="><i class="ion-social-linkedin-outline"></i>&nbsp; LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88908704-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
+</html>
